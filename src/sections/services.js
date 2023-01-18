@@ -23,14 +23,14 @@ const data = [
     imgSrc: Winner,
     altText: 'mobile dev',
     title: 'Mobile Application Development',
-    text: 'The Flutter Framework is our first love,but we arent limited,Our expert team posses years of experience with the Android and Ios SDK',
+    text: 'Flutter Framework is our first love,but we arent limited,We are Android and Ios SDK experts',
   },
   {
     id: 3,
     imgSrc: Cloud,
     altText: 'ux',
     title: 'UX Design',
-    text: 'UX Design is part of our Software Development step.With every project,we design UX to meet your Ui requirements.',
+    text: 'UX Design is part of our Software Development process.We design UX to meet your UI requirements.',
   },
   {
     id: 4,

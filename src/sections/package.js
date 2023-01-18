@@ -35,7 +35,7 @@ const packages = [
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Full Stack Web Application Development',
+        text: 'Full Stack Development',
         isAvailable: true,
       },
       {

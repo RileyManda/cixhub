@@ -26,17 +26,15 @@ const data = [
     imgSrc: Speed,
     altText: 'Execute',
     title: 'Execute',
-    text: 'We bring ideas to Life through smart execution with an Agile approach toward each project.',
+    text: 'We bring ideas to Life through smart execution through Agile Practices.',
   },
-
-  
 ];
 
 export default function KeyFeature() {
   return (
     <section sx={{ variant: 'section.keyFeature' }} id='about'>
       <Container>
-        <SectionHeader slogan='About Us' title='About Cix hub' />
+        <SectionHeader slogan='About Us' title='About Us' />
 
         <Grid sx={styles.grid}>
           {data.map((item) => (

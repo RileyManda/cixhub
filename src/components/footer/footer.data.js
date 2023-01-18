@@ -19,10 +19,6 @@ export default [
         label: 'Investment',
       },
       {
-        path: 'help',
-        label: 'Help',
-      },
-      {
         path: 'https://cixhub.gitbook.io/cixhub-privacy-policy/',
         label: 'Privacy Policy',
       },
