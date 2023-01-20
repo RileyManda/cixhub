@@ -1,0 +1,1 @@
+{"ast":null,"code":"import ReactDOM from 'react-dom';\n\nfunction Portal(props) {\n  return /*#__PURE__*/ReactDOM.createPortal(props.children, document.body);\n}\n\nexport default Portal;","map":null,"metadata":{},"sourceType":"module"}
