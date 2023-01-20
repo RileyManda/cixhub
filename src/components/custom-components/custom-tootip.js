@@ -140,7 +140,7 @@ function CustomTooltip({
             onMouseOut: handleMOut,
           })}
       {disabled || (
-        <Portal>
+    
           <StyledTooltip
             delay={delay}
             bg={bg}
@@ -150,7 +150,7 @@ function CustomTooltip({
           >
             {text}
           </StyledTooltip>
-        </Portal>
+     
       )}
     </>
   );
