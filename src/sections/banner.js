@@ -79,7 +79,7 @@ export default function Banner() {
           <Flex sx={styles.sponsorBox}>
             <Text sx={styles.sponsorTitle}>
               <TextType
-                text='Say Hello'
+                text='Hello World'
                 showBlink={true}
                 component='p'
               ></TextType>
