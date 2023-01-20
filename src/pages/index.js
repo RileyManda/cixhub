@@ -12,8 +12,8 @@ import PartnerSection from 'sections/partner';
 import WorkFlow from 'sections/workflow';
 import TestimonialCard from 'sections/testimonial';
 import SecurePayment from 'sections/secure-payment';
-import Package from 'sections/package';
 import Faq from 'sections/faq';
+import ContactUs from 'sections/contactus';
 
 export default function IndexPage() {
   return (
@@ -26,7 +26,7 @@ export default function IndexPage() {
           <Feature />
           <WorkFlow />
           <SecurePayment />
-          <Package />
+          <ContactUs />
           {/* <CoreFeature /> */}
 
           {/* <TestimonialCard />  to inclue when testimonials have been received*/} 

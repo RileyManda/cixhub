@@ -8,6 +8,7 @@ import LogoWhite from 'assets/cixlogo-white.svg';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
+import CustomTooltip from '../custom-components/custom-tootip';
 
 export default function Header({ className }) {
   return (
@@ -31,13 +32,15 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
-
-          <Button
-            className='donate__btn'
-            variant='secondary'
-            aria-label='Get Started'>
-            Portal
-          </Button>
+          <CustomTooltip placement='top' text='Coming Soon'>
+            <Button
+              className='donate__btn'
+              variant='secondary'
+              aria-label='Get Started'
+            >
+              Portal
+            </Button>
+          </CustomTooltip>
 
           <MobileDrawer />
         </Container>

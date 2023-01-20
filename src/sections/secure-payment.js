@@ -8,14 +8,15 @@ import PaymentPattern from 'assets/payment-pattern.png';
 const data = {
   subTitle: 'Investments',
   title: 'Partnerships',
-  description:'Join Our Partnership program to Learn more about becoming a CixHub Partner in the rapidly growing CixHub Ecosystem',
+  description:
+    'Join Our Partnership program to Learn more about becoming a CixHub Partner in the rapidly growing CixHub Ecosystem',
   btnName: 'Learn More',
-  btnURL: '#',
+  btnURL: 'https://form.jotform.com/230182715500546',
 };
 
 export default function SecurePayment() {
   return (
-    <section sx={{ variant: 'section.securePayment' }} id = 'partnerships'>
+    <section sx={{ variant: 'section.securePayment' }} id='partnerships'>
       <Box sx={styles.bgOverlay} />
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>

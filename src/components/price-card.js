@@ -1,14 +1,19 @@
 import { Box, Card, Text, Flex, Heading, Button } from 'theme-ui';
+import { Link } from 'components/link';
 import React from 'react';
 import List from './list';
 
+
+function btnClick() {
+  window.open('https://forms.gle/DnBh9kQRLX3kCJzo7');
+}
 export default function PriceCard({
   data: {
     header,
     name,
     description,
     priceWithUnit,
-    buttonText = 'Start Free Trial',
+    buttonText = 'Start Now',
     points,
   },
 }) {
@@ -18,11 +23,11 @@ export default function PriceCard({
       <Box>
         <Flex sx={styles.pricingHeader}>
           <Box>
-            <Heading className="package__name" sx={styles.heading}>
+            <Heading className='package__name' sx={styles.heading}>
               {name}
             </Heading>
             <Text
-              as="p"
+              as='p'
               sx={{
                 opacity: header ? 1 : 0.7,
                 color: header ? 'text' : 'white',
@@ -34,9 +39,9 @@ export default function PriceCard({
             </Text>
           </Box>
           {header && (
-            <Text className="package__price" sx={styles.price}>
+            <Text className='package__price' sx={styles.price}>
               <span>Starting from</span>
-              <div className="price">
+              <div className='price'>
                 {priceWithUnit}
                 <sub>mo</sub>
               </div>
@@ -50,12 +55,15 @@ export default function PriceCard({
             mt: ['40px', null, null, null, null, '70px'],
           }}
         >
-          <Button
-            variant={header ? 'primary' : 'whiteButton'}
-            aria-label={buttonText}
-          >
-            {buttonText}
-          </Button>
+          <Link>
+            <Button
+              variant={header ? 'primary' : 'whiteButton'}
+              aria-label={buttonText}
+              onClick={btnClick}
+            >
+              {buttonText}
+            </Button>
+          </Link>
         </Box>
       </Box>
     </Card>

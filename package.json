@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@next/env": "^13.1.2",
+    "@tippy.js/react": "^3.1.1",
     "dotenv": "^8.2.0",
     "framer-motion": "^2.7.5",
     "globby": "^11.0.0",
@@ -30,6 +31,8 @@
     "react-scroll": "^1.8.0",
     "react-stickynode": "^3.0.3",
     "react-text-typing": "^0.2.0",
+    "react-tippy": "^1.4.0",
+    "react-tooltip": "^5.5.2",
     "theme-ui": "^0.3.1",
     "typeface-dm-sans": "^1.1.3"
   },

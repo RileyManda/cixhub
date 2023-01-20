@@ -8,11 +8,12 @@
 # testing
 /coverage
 
-# next.js
+# next.js --removed for production build
+#next/ --removed for deployment
+#out/ --removed for deployment
 
-
-# production
-
+# production  --removed for production build
+#build --removed for deployment
 
 # misc
 .DS_Store

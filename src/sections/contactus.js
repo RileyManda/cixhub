@@ -1,17 +1,18 @@
 /** @jsx jsx */
-import { jsx, Container, Flex, Box } from 'theme-ui';
+import { jsx, Container, Flex, Box, Button } from 'theme-ui';
 import PriceCard from 'components/price-card';
 import TextFeature from 'components/text-feature';
 import SectionHeader from 'components/section-header';
 import { IoIosCheckmarkCircle, IoIosHourglass } from 'react-icons/io';
 import PatternBG from 'assets/patternBG.png';
+import { Link } from 'components/link';
 
 const packages = [
   {
     name: 'We are excited to hear from you',
     description: 'Available Services',
-    buttonText: 'Start Now',
-    btnURL: 'https://forms.gle/DnBh9kQRLX3kCJzo7',
+    // buttonText: 'Start Now',
+    // path: 'https://forms.gle/DnBh9kQRLX3kCJzo7',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
@@ -58,7 +59,8 @@ const packages = [
   },
 ];
 
-export default function Package() {
+
+export default function ContactUs() {
   return (
     <section id='contact' sx={styles.pricing}>
       <Container>
@@ -74,7 +76,11 @@ export default function Package() {
           }}
         >
           {packages.map((packageData) => (
-            <PriceCard data={packageData} key={packageData.name} />
+            <PriceCard
+              btnURL={packageData.btnURL}
+              data={packageData}
+              key={packageData.name}
+            />
           ))}
         </Flex>
       </Container>

@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Flex, Box, Heading, Text, Image, Button } from 'theme-ui';
-import React,{ useState } from 'react';
+import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
@@ -13,32 +13,27 @@ import facebook from 'assets/banner/facebook.svg';
 import github from 'assets/banner/github.svg';
 import client3 from 'assets/sponsor/dropbox.svg';
 import TextType from 'react-text-typing';
+import CustomTooltip from '../components/custom-components/custom-tootip';
 
 const data = [
   {
     id: 1,
-    path: '#',
+    path: 'https://www.linkedin.com/company/cixhub',
     image: linkdin,
     title: 'linkdin',
   },
   {
     id: 2,
-    path: '#',
+    path: 'https://twitter.com/CixHub',
     image: twitter,
     title: 'twitter',
   },
-  {
-    id: 3,
-    path: '#',
-    image: facebook,
-    title: 'facebook',
-  },
-  {
-    id: 4,
-    path: 'https://github.com/cixhub',
-    image: github,
-    title: 'github',
-  },
+  // {
+  //   id: 3,
+  //   path: 'https://www.linkedin.com/company/cixhub',
+  //   image: facebook,
+  //   title: 'facebook',
+  // },
 ];
 
 export default function Banner() {
@@ -59,9 +54,12 @@ export default function Banner() {
             Create | Innovate | Execute
           </Text>
           <Flex>
-            <Button variant='whiteButton' aria-label='Get Started'>
-              Portal
-            </Button>
+            <CustomTooltip placement='top' text='Coming Soon'>
+              <Button variant='whiteButton' aria-label='Portal'>
+                Portal
+              </Button>
+            </CustomTooltip>
+
             <>
               <ModalVideo
                 channel='youtube'
