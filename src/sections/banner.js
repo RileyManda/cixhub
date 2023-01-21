@@ -6,7 +6,7 @@ import ModalVideo from 'react-modal-video';
 import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
-import BannerThumb from 'assets/banner-thumb.png';
+import BannerThumb from 'assets/bg_main.svg';
 import linkdin from 'assets/banner/linkedin.svg';
 import twitter from 'assets/banner/twitter.svg';
 import facebook from 'assets/banner/facebook.svg';
