@@ -2,7 +2,7 @@
   <defs>
     <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#fff"/>
-      <stop offset="0.852" stop-color="#fbfbfb"/>
+      <stop offset="0.837" stop-color="#fbfbfb"/>
       <stop offset="1" stop-color="#6a6868" stop-opacity="0.533"/>
     </radialGradient>
     <filter id="Path_6" x="1132.207" y="738.77" width="524.069" height="507.023" filterUnits="userSpaceOnUse">
