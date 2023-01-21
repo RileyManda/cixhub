@@ -24,7 +24,7 @@ const data = [
   },
   {
     id: 2,
-    path: 'https://twitter.com/CixHub',
+    path: 'https://www.twitter.com/CixHub',
     image: twitter,
     title: 'twitter',
   },
@@ -76,14 +76,15 @@ export default function Banner() {
               </Button>
             </>
           </Flex>
+          <Text sx={styles.hellowWorld}>
+            <TextType
+              text='Hello World'
+              showBlink={true}
+              component='p'
+              size='12px'
+            ></TextType>
+          </Text>
           <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>
-              <TextType
-                text='Hello World'
-                showBlink={true}
-                component='p'
-              ></TextType>
-            </Text>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
                 <Link path={item.path} key={`client-key${index}`}>
@@ -139,6 +140,14 @@ const styles = {
   sponsorTitle: {
     color: 'white',
     fontSize: [1, 1],
+    opacity: 0.6,
+    pr: 20,
+    flexShrink: 0,
+    pb: [2, null, 0],
+  },
+    helloWorld: {
+    color: 'white',
+    fontSize: [4, 1],
     opacity: 0.6,
     pr: 20,
     flexShrink: 0,
