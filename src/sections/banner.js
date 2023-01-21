@@ -24,7 +24,7 @@ const data = [
   },
   {
     id: 2,
-    path: 'https://twitter.com/CixHub',
+    path: 'https://www.twitter.com/CixHub',
     image: twitter,
     title: 'twitter',
   },
