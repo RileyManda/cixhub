@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     title: 'Requirements Analysis',
-    text: 'We ensure your requirements are carefuly collected and understood before we turn them into solutions that expand on your idea with brain stroming sessions.',
+    text: 'We ensure your requirements are carefuly collected and understood before we turn them into solutions that expand on your idea through engaging brain storming sessions and requirements itirations.',
   },
   {
     id: 2,
