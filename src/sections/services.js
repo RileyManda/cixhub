@@ -23,7 +23,7 @@ const data = [
     imgSrc: Mobile,
     altText: 'mobile dev',
     title: 'Mobile Application Development',
-    text: 'Flutter Framework is our first love,but we arent limited,We are Android and Ios SDK experts',
+    text: 'Flutter Framework is our first love,but we arent limited.We are Android and IOs SDK experts',
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const data = [
     imgSrc: GraphicD,
     altText: 'Graphic Design',
     title: 'Graphic Design',
-    text: 'Need a Logo?We design professional logo that will make your organization stand out',
+    text: 'Need a Logo?We design professional logos that will make your organization stand out in a competitive market',
   },
   {
     id: 5,

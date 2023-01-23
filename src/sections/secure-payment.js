@@ -11,7 +11,7 @@ const data = {
   subTitle: 'Investments',
   title: 'Partnerships',
   description:
-    'Join Our Partnership program to Learn more about becoming a CixHub Partner in the rapidly growing CixHub Ecosystem',
+    'Join Our Partnership program to Learn more about becoming a CixHub Partner in a rapidly growing Tech Ecosystem of your choice.',
   btnName: 'Learn More',
   btnURL: 'https://form.jotform.com/230182715500546',
 };
