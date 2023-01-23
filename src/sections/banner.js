@@ -28,11 +28,17 @@ const data = [
     image: twitter,
     title: 'twitter',
   },
+  {
+    id: 3,
+    path: 'https://www.linkedin.com/company/cixhub',
+    image: facebook,
+    title: 'facebook',
+  },
   // {
   //   id: 3,
   //   path: 'https://www.linkedin.com/company/cixhub',
-  //   image: facebook,
-  //   title: 'facebook',
+  //   image: github,
+  //   title: 'github',
   // },
 ];
 

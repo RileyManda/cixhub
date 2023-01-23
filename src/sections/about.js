@@ -2,31 +2,37 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
-import Vector from 'assets/key-feature/vector.svg';
-import Editing from 'assets/key-feature/editing.svg';
-import Speed from 'assets/key-feature/speed.svg';
+
+// import Vector from 'assets/key-feature/vector.svg';
+// import Editing from 'assets/key-feature/editing.svg';
+// import Speed from 'assets/key-feature/speed.svg';
+import Editing from 'assets/key-feature/create.svg';
+import Vector from 'assets/key-feature/innovate.svg';
+import Speed from 'assets/key-feature/execute.svg';
+
+
 
 const data = [
   {
     id: 1,
-    imgSrc: Vector,
+    imgSrc: Editing,
     altText: 'create',
-    title: 'Create',
+    title: 'Creative',
     text: 'We Create Multimedia Assets and develop Software',
   },
   {
     id: 2,
-    imgSrc: Editing,
+    imgSrc: Vector,
     altText: 'innovate',
-    title: 'Innovate',
+    title: 'Innovative',
     text: 'We Are Innovative.Innovation is our core value. ',
   },
   {
     id: 3,
     imgSrc: Speed,
     altText: 'Execute',
-    title: 'Execute',
-    text: 'We bring ideas to Life through smart execution through Agile Practices.',
+    title: 'Fast Execution',
+    text: 'We bring ideas to Life through smart execution with our Agile Practices.',
   },
 ];
 
