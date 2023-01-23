@@ -28,11 +28,17 @@ const data = [
     image: twitter,
     title: 'twitter',
   },
+  {
+    id: 3,
+    path: 'https://www.facebook.com/cixtechnology',
+    image: facebook,
+    title: 'facebook',
+  },
   // {
   //   id: 3,
   //   path: 'https://www.linkedin.com/company/cixhub',
-  //   image: facebook,
-  //   title: 'facebook',
+  //   image: github,
+  //   title: 'github',
   // },
 ];
 
@@ -64,7 +70,7 @@ export default function Banner() {
               <ModalVideo
                 channel='youtube'
                 isOpen={videoOpen}
-                videoId='ZNA9rmDsYVE'
+                videoId=''
                 onClose={() => setVideoOpen(false)}
               />
               <Button
