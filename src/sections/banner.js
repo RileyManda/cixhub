@@ -30,7 +30,7 @@ const data = [
   },
   {
     id: 3,
-    path: 'https://www.linkedin.com/company/cixhub',
+    path: 'https://www.facebook.com/cixtechnology',
     image: facebook,
     title: 'facebook',
   },
