@@ -74,7 +74,7 @@ export default [
         label: 'Press Release',
       },
       {
-        path: '/',
+        path: 'https://medium.com/@askcixhub',
         label: 'Blog',
       },
     ],
