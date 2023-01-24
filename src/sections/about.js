@@ -18,7 +18,7 @@ const data = [
     imgSrc: Editing,
     altText: 'create',
     title: 'Creative',
-    text: 'We Create Multimedia Assets and develop Software',
+    text: 'We apply creativity to every Multimedia and Software Project',
   },
   {
     id: 2,
