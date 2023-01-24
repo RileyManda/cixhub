@@ -5,13 +5,13 @@ import theme from 'theme';
 import SEO from 'components/seo';
 import Layout from 'components/layout';
 import Banner from 'sections/banner';
-import KeyFeature from 'sections/about';
+import About from 'sections/about';
 import CoreFeature from 'sections/core-feature';
 import Feature from 'sections/services';
 import PartnerSection from 'sections/partner';
 import WorkFlow from 'sections/workflow';
-import TestimonialCard from 'sections/testimonial';
-import SecurePayment from 'sections/secure-payment';
+import ProductsCard from 'sections/products';
+import Partnerships from 'sections/partnerships';
 import Faq from 'sections/faq';
 import ContactUs from 'sections/contactus';
 
@@ -20,16 +20,15 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title='CIXHUB' />
+          <SEO title='CixHub' />
           <Banner />
-          <KeyFeature />
+          <About />
           <Feature />
           <WorkFlow />
-          <SecurePayment />
+          {/* <ProductsCard /> */}
+          <Partnerships />
           <ContactUs />
           {/* <CoreFeature /> */}
-
-          {/* <TestimonialCard />  to inclue when testimonials have been received*/} 
 
           {/* <Faq /> */}
           {/* <PartnerSection /> */}

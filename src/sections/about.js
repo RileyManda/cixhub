@@ -36,12 +36,12 @@ const data = [
   },
 ];
 
-export default function KeyFeature() {
+export default function About() {
   return (
     <section sx={{ variant: 'section.keyFeature' }} id='about'>
       <Container>
-        <SectionHeader slogan='About Us' title='About Us' />
-
+        <SectionHeader title='About Us' />
+    {/* <SectionHeader slogan='About'  title='About Us' />  */}
         <Grid sx={styles.grid}>
           {data.map((item) => (
             <FeatureCardColumn
