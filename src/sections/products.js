@@ -1,3 +1,4 @@
+import React from 'react';
 import { jsx, Container, Heading, Text, Box, Image } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import Rating from 'components/rating';
@@ -20,8 +21,7 @@ const data = [
   {
     id: 2,
     title: 'ECard',
-    description:
-      'A Mobile Applicaion with an empowerement aspect.',
+    description: 'A Mobile Applicaion with an empowerement aspect.',
     avatar: Avatar2,
     name: 'Denny Hilguston',
     review: 5,
@@ -99,24 +99,24 @@ export default function ProductsCard() {
           slidesToSlide={1}
         >
           {data.map((item) => (
-            <Box sx={styles.reviewCard} key={`testimonial--key${item.id}`}>
-              <Heading as='h3' sx={styles.title}>
-                {item.title}
-              </Heading>
-              <div className='card-footer'>
-                <div className='image'>
-                  <Image src={item.avatar} alt='Client Image' />
-                </div>
-                <div className='reviewer-info'>
-                  <Heading as='h4' sx={styles.heading}>
-                    {item.name}
+                <Box sx={styles.reviewCard} key={`testimonial--key${item.id}`}>
+                  <Heading as='h3' sx={styles.title}>
+                    {item.title}
                   </Heading>
-                  {/* <Text sx={styles.designation}>{item.designation}</Text> */}
-                </div>
-              </div>
-              <Text sx={styles.description}>{item.description}</Text>
-              <Rating rating={item.review} />
-            </Box>
+                  <div className='card-footer'>
+                    <div className='image'>
+                      <Image src={item.avatar} alt='Client Image' />
+                    </div>
+                    <div className='reviewer-info'>
+                      <Heading as='h4' sx={styles.heading}>
+                        {item.name}
+                      </Heading>
+                      {/* <Text sx={styles.designation}>{item.designation}</Text> */}
+                    </div>
+                  </div>
+                  <Text sx={styles.description}>{item.description}</Text>
+                  <Rating rating={item.review} />
+                </Box>
           ))}
         </Carousel>
       </Box>
@@ -161,7 +161,7 @@ const styles = {
     boxShadow: '0px 0px 1px rgba(38, 78, 118, 0.35)',
     transition: 'all 0.3s',
     borderRadius: '6px',
-    
+
     p: [
       '30px 20px 35px',
       '30px 25px 35px',
