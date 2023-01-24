@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
-import BannerBG from 'assets/bannerBg.png';
+import BannerBG from 'assets/bannerBg-test.png';
 import BannerThumb from 'assets/bg_main.svg';
 import linkdin from 'assets/banner/linkedin.svg';
 import twitter from 'assets/banner/twitter.svg';
@@ -82,14 +82,17 @@ export default function Banner() {
               </Button>
             </>
           </Flex>
-          <Text sx={styles.hellowWorld}>
-            <TextType
-              text='Hello World'
-              showBlink={true}
-              component='p'
-              size='12px'
-            ></TextType>
-          </Text>
+          <Flex>
+            <Text sx={styles.hellowWorld}>
+              <TextType
+                text='Hello World..'
+                showBlink={true}
+                variant='p'
+                TextType='italic'
+              ></TextType>
+            </Text>
+          </Flex>
+
           <Flex sx={styles.sponsorBox}>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
@@ -151,9 +154,9 @@ const styles = {
     flexShrink: 0,
     pb: [2, null, 0],
   },
-    helloWorld: {
+  helloWorld: {
     color: 'white',
-    fontSize: [4, 1],
+    fontSize: [3, 1],
     opacity: 0.6,
     pr: 20,
     flexShrink: 0,

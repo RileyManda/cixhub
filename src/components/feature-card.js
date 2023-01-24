@@ -22,6 +22,14 @@ const styles = {
   card: {
     display: 'flex',
     alignItems: 'flex-start',
+    boxShadow: '0px 0px 1px rgba(38, 78, 118, 0.35)',
+    transition: 'all 0.3s',
+    borderRadius: '30px',
+    // backgroundColor:'rgba(38, 78, 118, 0.35)',
+    cursor: 'pointer',
+    '&:hover': {
+      boxShadow: '0px 6px 47px rgba(38, 78, 118, 0.1)',
+    },
   },
 
   img: {
